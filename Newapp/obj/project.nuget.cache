@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a69E0pO7c9vF9pNLudNJ+ony0urvwVTOg9HLei8uJbJ51uZ6ykHcFJsFkNc49vm1Vv9ezs3MvYFjfi6b3lMzng==",
+  "dgSpecHash": "B+QCXDqNK7tpRcqX1YPPn/5TgnF/ftGiMRh4rX+GniOcRhR02pWPlQGu/nv9/pnWscNbD25JK3QgW2Ak3cIRGw==",
   "success": true,
-  "projectFilePath": "d:\\PTPMQL\\Newapp\\Newapp.csproj",
+  "projectFilePath": "D:\\PTPMQL\\newapp\\Newapp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
