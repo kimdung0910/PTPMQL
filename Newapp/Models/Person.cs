@@ -1,6 +1,6 @@
 using System;
 using System.Security.AccessControl;
-namespace NewApp.Models
+namespace Newapp.Models
 {
     public class Person
     {
@@ -22,4 +22,3 @@ namespace NewApp.Models
         }
     }
 }
-
