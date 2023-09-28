@@ -1,9 +1,11 @@
-﻿﻿internal class Program
+﻿using NewApp.Models;
+
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(String[] args)
     {
-        Console.Write("Nhap vao du lieu:");
-        int a = Console.Read();
-        Console.WriteLine("Du lieu vua nhap vao la: " + a);
+        Person ps = new Person();
+        ps.EnterData();
+        ps.Display();
     }
 }
