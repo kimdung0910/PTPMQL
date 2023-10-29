@@ -7,7 +7,7 @@
 
     <p>K65</p>
 
-    <form action="/action_page.php" target="_blank" method="post">
+    <form action="/action_page.php" target="_blank" method="get">
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value="Dung"><br>
         <label for="lname">Last name:</label><br>
@@ -15,7 +15,7 @@
         <input type="submit" value="Submit">
     </form>
 
-    <p>sử dụng phương thức POST khi gửi dữ liệu biểu mẫu.</p>
+    <p>sử dụng phương thức GET khi gửi dữ liệu biểu mẫu.</p>
 
 </body>
 
@@ -24,3 +24,4 @@
 
 
 <!--Tran Thi Kim Dung - 2021050135
+    NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
