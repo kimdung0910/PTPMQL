@@ -2,26 +2,32 @@
 <html>
 
 <body>
+    <h1>HTML Geolocation</h1>
+    <p>Click the button to get your coordinates.</p>
 
-    <h2>Tran Thi Kim Dung - 2021050135</h2>
+    <button onclick="getLocation()">Try It</button>
 
-    <p>K65</p>
+    <p id="demo"></p>
 
-    <form action="/action_page.php" target="_blank" method="get">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="Dung"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Kim"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <script>
+        const x = document.getElementById("demo");
 
-    <p>sử dụng phương thức GET khi gửi dữ liệu biểu mẫu.</p>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.watchPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
 
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
 
 </body>
 
 </html>
-
-
 
 <!--Tran Thi Kim Dung - 2021050135
