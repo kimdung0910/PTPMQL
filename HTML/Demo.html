@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Tran Thi Kim Dung 2021050135</title>
+<body>
 
-    <body>
+    <!-- This is a comment -->
+    <p>Tran Thi Kim Dung</p>
+    <!-- Comments are not displayed in the browser -->
 
-        <body>
-            <h1>Getting server updates</h1>
-            <div id="result"></div>
-
-            <script>
-                if (typeof(EventSource) !== "undefined") {
-                    var source = new EventSource("demo_sse.php");
-                    source.onmessage = function(event) {
-                        document.getElementById("result").innerHTML += event.data + "<br>";
-                    };
-                } else {
-                    document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";
-                }
-            </script>
-        </body>
-
-    </body>
-
-
+</body>
 
 </html>
-
-<!--Tran Thi Kim Dung - 2021050135
