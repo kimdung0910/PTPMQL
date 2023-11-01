@@ -7,7 +7,7 @@ public class Program
         if(a<0)
         {
             System.Console.WriteLine("{0} là số nguyên âm", a);
-
+//Tran Thi Kim Dung 2021050135
         }else{
         if(a%2 ==0){
             System.Console.WriteLine("{0} là số nguyên chắn",a);
