@@ -1,22 +1,11 @@
 ﻿public class Program
 {
     private static void Main(string[]args)
+{
+    for(int i = 0; i<10; i++)
     {
-        int day = 2;
-        switch(day)
-        {
-            case 1 : System.Console.WriteLine("Chủ nhật");break;
-            case 2 : System.Console.WriteLine("Thứ 2");break;
-            case 3 : System.Console.WriteLine("Thứ 3");break;
-            case 4 : System.Console.WriteLine("Thứ 4");break;
-            case 5 : System.Console.WriteLine("Thứ 5");break;
-            case 6 : System.Console.WriteLine("Thứ 6");break;
-            case 7 : System.Console.WriteLine("Thứ 7");break;
-            default :
-            System.Console.WriteLine("Không phải ngày trong tuần");
-            break;
- //Tran Thi Kim Dung 2021050135           
-
-        }
+        System.Console.WriteLine("Vòng lặp thứ {0}",i);
+    }
     }
 }
+//Tran Thi Kim Dung 2021050135
