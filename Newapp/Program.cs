@@ -1,25 +1,10 @@
-﻿using System;
-using System.Collections;
-namespace NewApp.Models
+﻿internal class Program
 {
-    class Program
+    private static void Main(string[]args)
     {
-        static void Main(string[] args)
-        {
-            // Tạo danh sách các đối tượng Person
-            var psList = new List<Person>();
-
-            for (int i = 0; i < 2; i++)
-            {
-                Person ps = new Person();
-                ps.NhapThongTin();
-                psList.Add(ps);
-            }
-
-            foreach (Person p in psList)
-            {
-                Console.WriteLine(p.PersonID + "-" + p.FullName);
-            }
-        }
+        string hoTen = "Tran Thi Kim Dung";
+        int tuoi = 21;
+        Console.WriteLine("Sinh vien {0} - {1} tuoi",hoTen,tuoi );
+        
     }
 }
