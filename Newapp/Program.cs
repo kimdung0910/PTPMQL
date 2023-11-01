@@ -1,11 +1,21 @@
-﻿internal class Program
+﻿using System.Diagnostics;
+public class Program
 {
     private static void Main(string[]args)
     {
-        string str = "123";
-        int a = Convert.ToInt32(str);
-        System.Console.WriteLine("a =" + a);
+        int a = 10;
+        if(a<0)
+        {
+            System.Console.WriteLine("{0} là số nguyên âm", a);
 
+        }else{
+        if(a%2 ==0){
+            System.Console.WriteLine("{0} là số nguyên chắn",a);
+
+        }else{
+            System.Console.WriteLine("{0} là số nguyên dương lẻ",a);
+        }
+
+        }
     }
 }
-//Tran Thi Kim Dung 2021050135
