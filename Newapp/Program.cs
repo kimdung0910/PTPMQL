@@ -1,13 +1,13 @@
 ﻿public class Program
 {
     private static void Main(string[]args)
-{
+   {
     int a = 1;
-    while(a<10)
-    {
-        System.Console.WriteLine("Vòng lặp thứ {0}",a);
+    do{
+        System.Console.WriteLine("Vong flawpj thứ {0}",a);
         a++;
-    }
+    }while (a < 10);
+//Tran Thi Kim Dung 2021050135
+      
     }
 }
- //Tran Thi Kim Dung 2021050135
