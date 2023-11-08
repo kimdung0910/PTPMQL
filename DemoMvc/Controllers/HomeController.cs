@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using DemoMvc.Models;
 
-namespace DemoMvc.Controllers;
+namespace DemoMVC.Controllers;
 
 public class HomeController : Controller
 {

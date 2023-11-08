@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 using Microsoft.AspNetCore.Mvc.ViewFeatures.Buffers;
 
-namespace DemoMvc.Controllers
+namespace DemoMVC.Controllers
 {
     public class DemoController : Controller
     {

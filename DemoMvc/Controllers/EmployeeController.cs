@@ -1,7 +1,7 @@
-using demomvc.Models;
+using DemoMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace demomvc.Controllers;
+namespace DemoMVC.Controllers;
 public class EmployeeController : Controller{
     public IActionResult Index(){
         return View();

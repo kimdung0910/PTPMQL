@@ -1,14 +1,20 @@
-using System.ComponentModel.DataAnnotations;
+ using System.ComponentModel.DataAnnotations;
+ using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DemoMvc.Models
+namespace DemoMVC.Models
 {
+    [Table("Persons")]
 
-    public class Persons
+    public class Person
     {
-   
-    public string PersonId { get; set;}
-    public string FullName { get; set;}
-    public string Address { get; set;}
+      [Key]
+    public string PersonID { get; set; }
+    
+    public string FullName { get; set; }
+  
+    public string Address { get; set; }
+    public int Age { get; set; }
     }
-}
+    }
+
 //Tran Thi Kim Dung 2021050135
